@@ -18,12 +18,42 @@ export default helpdesk({
     channelsToExclude: [],
     channelsToJoin: ['#butlerbot'],
     },
+    "commands": [
+      "!cmt",
+      "!helpdesk",
+      "!chair",
+      "!secretary",
+      "!treasurer",
+      "!pro",
+      "!events",
+      "!admins",
+      "!webmaster",
+      "!fyr",
+      "!help"
+    ],
+    "pmCommands": [],
+    "wiki": "http://wiki.redbrick.dcu.ie/mw/"
   },
 
   production: {
     channels: ['#butlerbot'],
     channelsToExclude: [],
     channelsToJoin: ['#butlerbot'],
+    "commands": [
+      "!cmt",
+      "!helpdesk",
+      "!chair",
+      "!secretary",
+      "!treasurer",
+      "!pro",
+      "!events",
+      "!admins",
+      "!webmaster",
+      "!fyr",
+      "!help"
+    ],
+    "pmCommands": [],
+    "wiki": "http://wiki.redbrick.dcu.ie/mw/"
   },
 });
 ```
