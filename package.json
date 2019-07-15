@@ -39,7 +39,7 @@
   "dependencies": {
     "@std/esm": "^0.2.2",
     "cheerio": "^1.0.0-rc.2",
-    "request": "2.34",
+    "request": "2.47",
     "request-promise": "^4.2.2"
   }
 }
